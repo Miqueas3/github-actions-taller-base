@@ -31,7 +31,7 @@ jobs:
       ubuntu-latest
     steps:
       - name: 1. Descargar el codigo
-        uses: actions/checkput@v4
+        uses: actions/checkout@v4
       - name: 3. Despliegue
         run: echo "Despligue exitoso"
       
